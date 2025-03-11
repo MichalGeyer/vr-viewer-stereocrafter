@@ -32,7 +32,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     </div>
     
     <video id="video" autoplay muted crossorigin="anonymous" playsinline style="display:none">
-      <source src="{commented_path}" type="video/webm">
+      <source src="{commented_path}" type="video/mp4">
     </video>
     
     <script type="module" src="stereo.js"></script>
