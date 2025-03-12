@@ -6,7 +6,7 @@ STEREO_JS_SOURCE_AR2 = 'example_ar_2_195/stereo.js'
 SAVE_PATH = 'viewers'
 # PAIRS_USER_STUDY_PATH = "https://michalgeyer.github.io/vr-viewer-files-webm/pairs-user-study-webm-stereocrafter"  # https path used inside <source>
 VIDEOS_LOCAL_PATH = "stereocrafter-user-study"
-PAIRS_USER_STUDY_PATH = VIDEOS_LOCAL_PATH
+PAIRS_USER_STUDY_PATH = f"../../{VIDEOS_LOCAL_PATH}"
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
